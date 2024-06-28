@@ -1,6 +1,7 @@
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 import Message from "./Message/Message";
+import '../index.css'
 
 function App() {
 

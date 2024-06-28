@@ -1,0 +1,6 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+}
