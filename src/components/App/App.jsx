@@ -16,6 +16,7 @@ import s from "./App.module.css";
 import Button from "../Button/Button";
 
 import Counter from "../Counter/Counter";
+import ColorPicker from "../ColorPicker/ColorPicker";
 
 function App() {
   const isOnline = false;
@@ -57,6 +58,7 @@ function App() {
 
       {/* =================================================== */}
       <Counter />
+      <ColorPicker />
 
       <Footer />
     </main>

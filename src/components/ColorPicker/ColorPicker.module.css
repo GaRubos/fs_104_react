@@ -1,0 +1,23 @@
+.colorPicker {
+  height: 150px;
+  padding: 50px;
+  place-content: center;
+  transition: background-color 0.5s linear;
+  height: 100vh;
+}
+
+.list {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.item:hover {
+  background-color: aqua;
+}
