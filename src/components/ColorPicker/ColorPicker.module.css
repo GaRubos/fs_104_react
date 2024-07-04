@@ -2,8 +2,16 @@
   height: 150px;
   padding: 50px;
   place-content: center;
-  transition: background-color 0.5s linear;
+  transition: background-color 1.5s linear;
   height: 100vh;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.colorName {
+  margin-bottom: 25px;
 }
 
 .list {
@@ -19,5 +27,5 @@
   cursor: pointer;
 }
 .item:hover {
-  background-color: aqua;
+  background-color: rgb(143, 146, 146);
 }

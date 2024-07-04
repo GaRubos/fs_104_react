@@ -15,8 +15,8 @@ const ColorPicker = () => {
       style={{ backgroundColor: currentColor }}
       className={s.colorPicker}
     >
-      <div>
-        <h1>Current color {currentColor}</h1>
+      <div className={s.wrapper}>
+        <h1 className={s.colorName}>Current color {currentColor}</h1>
         <ul className={s.list}>
           {colors.map((item) => (
             <li

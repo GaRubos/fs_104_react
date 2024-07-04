@@ -17,6 +17,7 @@ import Button from "../Button/Button";
 
 import Counter from "../Counter/Counter";
 import ColorPicker from "../ColorPicker/ColorPicker";
+import TodoList from "../TodoList/TodoList";
 
 function App() {
   const isOnline = false;
@@ -59,6 +60,7 @@ function App() {
       {/* =================================================== */}
       <Counter />
       <ColorPicker />
+      <TodoList />
 
       <Footer />
     </main>
